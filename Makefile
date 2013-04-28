@@ -1,0 +1,2 @@
+inst:
+	./setup.sh
