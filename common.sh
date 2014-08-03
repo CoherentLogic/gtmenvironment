@@ -13,7 +13,7 @@ function set-environment
     export gtm_dist=${GTM_HOME}
     export gtmgbldir=${ENV_GLD}
     export gtm_log=${HOME}/log
-    export gtmroutines="${GTM_HOME} ${HOME}/o(${HOME}/p ${HOME}/r)"
+    export gtmroutines="${HOME}/o(${HOME}/p ${HOME}/r) ${GTM_HOME}/libgtmutil.so"
 }
 
 function build-directory-structure
